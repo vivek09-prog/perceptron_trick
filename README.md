@@ -13,3 +13,8 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import r2_score
 ```
+
+## Work completed - 31 July 2026
+
+- Fixed the `perceptron` function error by adding `x` and `y` parameters.
+- Replaced the hard-coded sample count (`100`) with `x.shape[0]`, so the function works with datasets of any size.
